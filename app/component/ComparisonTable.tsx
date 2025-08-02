@@ -54,7 +54,13 @@ const features = [
 
 
 
-const renderCell = (data: any) => {
+type CellData = {
+  icon?: string;
+  note?: string;
+  text?: string;
+};
+
+const renderCell = (data: CellData) => {
   if (data?.icon === "check") {
     return (
       <div className="flex flex-col items-start gap-1">
