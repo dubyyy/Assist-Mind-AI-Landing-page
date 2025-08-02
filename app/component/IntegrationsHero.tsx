@@ -5,9 +5,7 @@ interface Feature {
   title: string;
 }
 
-interface IntegrationsHeroProps {
-  imageSrc?: string;
-}
+
 
 const features: Feature[] = [
   {
@@ -24,7 +22,7 @@ const features: Feature[] = [
   },
 ];
 
-const IntegrationsHero: React.FC<IntegrationsHeroProps> = ({ imageSrc }) => {
+const IntegrationsHero= () => {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center bg-gradient-to-r from-[#181E60] to-[#1B2CC1] p-10 md:p-12 my-10 max-w-7xl mx-auto min-h-[400px] shadow-xl">
       <div className="flex-1 text-white md:pr-10">

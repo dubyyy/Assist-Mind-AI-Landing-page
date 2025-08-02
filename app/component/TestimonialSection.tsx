@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const testimonials = [
   {
     text: "We booked 27 appointments in the first month - without answering a single call manually. This thing just works.",
@@ -36,7 +36,7 @@ const TestimonialSection = () => {
           >
             <div className="text-gray-700 mb-6">{t.text}</div>
             <div className="flex items-center gap-4 mt-auto">
-              <img
+              <Image
                 src={t.avatar}
                 alt={t.name}
                 className="w-12 h-12 rounded-full border-2 border-blue-100 object-cover shadow-lg"

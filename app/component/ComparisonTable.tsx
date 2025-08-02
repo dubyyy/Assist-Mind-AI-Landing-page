@@ -52,6 +52,8 @@ const features = [
   },
 ];
 
+
+
 const renderCell = (data: any) => {
   if (data?.icon === "check") {
     return (

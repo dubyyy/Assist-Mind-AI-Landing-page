@@ -84,7 +84,7 @@ const Footer = () => {
               marginBottom: 16,
             }}
           >
-            <img
+            <Image
               src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg"
               alt="Mail"
               style={{ width: 18, height: 18, marginRight: 8 }}
@@ -93,21 +93,21 @@ const Footer = () => {
           </div>
           <div style={{ display: "flex", gap: 16 }}>
             <a href="#" aria-label="Facebook">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
                 alt="Facebook"
                 style={{ width: 22, height: 22 }}
               />
             </a>
             <a href="#" aria-label="LinkedIn">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
                 alt="LinkedIn"
                 style={{ width: 22, height: 22 }}
               />
             </a>
             <a href="#" aria-label="Google">
-              <img
+              <Image
                 src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
                 alt="Google"
                 style={{ width: 60, height: 23 }}

@@ -1,9 +1,8 @@
-"use client";
-import { useState } from 'react';
+
+
 import { CheckCircle, Calendar } from 'lucide-react';
 
 const GoogleCalendarCard = () => {
-  const [isActive, setIsActive] = useState(true);
 
   return (
     <div className="
@@ -22,7 +21,7 @@ const GoogleCalendarCard = () => {
     ">
       {/* Status Pill */}
       <div className="absolute top-3 right-3 bg-green-100 text-green-700 text-[10px] sm:text-xs font-medium px-2 py-0.5 rounded-full">
-        {isActive ? 'Active' : 'Inactive'}
+        Active
       </div>
 
       {/* Header */}

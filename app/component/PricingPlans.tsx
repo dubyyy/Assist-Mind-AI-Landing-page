@@ -98,7 +98,7 @@ const PricingPlans: React.FC = () => {
               </div>
               <ul className="space-y-2 mt-2">
                 {plan.features.map((feature, i) => (
-                  <li key={feature} className="flex items-center gap-2 text-[15px]">
+                  <li key={i} className="flex items-center gap-2 text-[15px]">
                     <CheckCircle size={18} className={plan.highlight ? "text-indigo-200" : "text-[#6B5CFF]"} />
                     <span>{feature}</span>
                   </li>
